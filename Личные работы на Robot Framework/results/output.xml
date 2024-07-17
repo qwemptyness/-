@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.9 on win32)" generated="2024-07-17T18:01:41.473399" rpa="false" schemaversion="5">
+<suite id="s1" name="Личные работы на Robot Framework" source="C:\Users\averg\Documents\Личные работы на Robot Framework">
+<suite id="s1-s1" name="The-Internet" source="C:\Users\averg\Documents\Личные работы на Robot Framework\the-internet">
+<suite id="s1-s1-s1" name="The-Internet" source="C:\Users\averg\Documents\Личные работы на Robot Framework\the-internet\the-internet.robot">
+<test id="s1-s1-s1-t1" name="the-internet test" line="22">
+<kw name="Preconditions: Open browser and maximize window" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-17T18:01:41.727361" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<arg>url=https://the-internet.herokuapp.com/</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-17T18:01:41.726362" elapsed="7.476211"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-17T18:01:49.203825" elapsed="0.023054"/>
+</kw>
+<doc>Открыть браузер во весь экран</doc>
+<status status="PASS" start="2024-07-17T18:01:41.725359" elapsed="7.501520"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-17T18:01:49.227879" level="INFO">Clicking element '//*[@id="content"]/ul/li[2]/a'.</msg>
+<arg>//*[@id="content"]/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-17T18:01:49.227879" elapsed="0.285997"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-07-17T18:01:49.514877" level="INFO">Clicking button '//*[@id="content"]/div/button'.</msg>
+<arg>//*[@id="content"]/div/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-17T18:01:49.513876" elapsed="0.087990"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-07-17T18:01:49.602929" level="INFO">Clicking button '//*[@id="elements"]/button'.</msg>
+<arg>//*[@id="elements"]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-17T18:01:49.602929" elapsed="0.058545"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-17T18:01:52.662863" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-17T18:01:49.661474" elapsed="3.001389"/>
+</kw>
+<kw name="Postconditions: Close browser after test" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-17T18:01:52.663871" elapsed="2.271038"/>
+</kw>
+<doc>Закрыть браузер после окончания теста</doc>
+<status status="PASS" start="2024-07-17T18:01:52.663871" elapsed="2.271038"/>
+</kw>
+<doc>Автотест сайта для тренировки навыков автотестирования "the-internet"</doc>
+<status status="PASS" start="2024-07-17T18:01:41.724360" elapsed="13.211549"/>
+</test>
+<status status="PASS" start="2024-07-17T18:01:41.509695" elapsed="13.427216"/>
+</suite>
+<status status="PASS" start="2024-07-17T18:01:41.506695" elapsed="13.432216"/>
+</suite>
+<status status="PASS" start="2024-07-17T18:01:41.477403" elapsed="13.462507"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Личные работы на Robot Framework">Личные работы на Robot Framework</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="The-Internet">Личные работы на Robot Framework.The-Internet</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="The-Internet">Личные работы на Robot Framework.The-Internet.The-Internet</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
